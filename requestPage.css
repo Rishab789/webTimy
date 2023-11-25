@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+    font-size: 72px;
+    line-height: 1.14;
+}
+
+a {
+    text-decoration: none;
+    color: #000000cc;
+}
+
+
+
+main {
+    margin-bottom: 150px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.head-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.head-content div {
+    display: flex;
+    align-items: center;
+}
+
+form {
+    /* background-color: aquamarine; */
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 870px;
+    width: 650px;
+
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+
+}
+
+.form-content input {
+    width: 605px;
+    height: 43px;
+    margin-bottom: 25px;
+    background-color: #fafafa;
+    border: 1px solid rgb(210, 215, 211);
+    border-radius: 2px;
+
+}
+
+input:focus {
+    outline-color: skyblue;
+
+}
+
+sup {
+    color: red;
+    font-weight: bold;
+    height: 7px;
+    width: 7px;
+}
+
+textarea {
+    background-color: #fafafa;
+    border: 1px solid rgb(210, 215, 211);
+    margin-bottom: 20px;
+
+}
+
+textarea:focus {
+    outline-color: skyblue;
+
+}
+
+
+button {
+    height: 43px;
+    border: none;
+    background-color: #4488ee;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 430px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    form {
+        /* background-color: aquamarine; */
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        height: 890px;
+        width: 350px;
+
+    }
+
+    .form-content input {
+        width: 320px;
+        height: 43px;
+
+
+    }
+
+
+
+
+}

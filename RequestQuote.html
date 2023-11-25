@@ -4,22 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./requestPage.css">
+    <title>Document</title>
 </head>
 
 <body>
-
-
-    <!----------------------- Header Section-------------------- -->
+    <!-- header part  -->
     <header>
         <!-- <div class="container"> -->
         <div class="navbar">
             <a href="#home" class="logo">Web<span class="post-text">timy</span></a>
             <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="./index.html">Home</a></li>
                     <li>
 
 
@@ -56,127 +55,51 @@
 
     </header>
 
+    <!-- Form Section  -->
+    <main>
+        <div class="main-content">
 
-
-    <!-- -----------------Hero Section ------------------------- -->
-
-    <!-- <div class="container"> -->
-    <main id="main">
-        <div class="shadow">
-
-
-            <div class="left-content">
-                <h1>Let’s Supercharge Your Online<br> Growth.</h1>
-                <p>Starting from Website Design to eCommerce Development, YouTube to Digital Marketing,
-                    Photography
-                    & Filmmaking we do it all.</p>
-
-                <button class="btn">Our Service <i class="bi bi-arrow-right"></i></button>
-
+            <div class="head-content">
+                <h1>Request Quote</h1>
+                <div style="margin-bottom: 100px;">
+                    <a href="./index.html" style="font-size: 14px;margin-right: 5px;">Home</a><i
+                        class="fa-solid fa-angles-right"
+                        style="font-size: 14px;color: #000000cc;margin-right: 5px;"></i>
+                    <p style="font-size: 14px;color: #000000cc;">Request Quote</p>
+                </div>
             </div>
-            <div class="right-content">
-                <div class="form-container">
-                    <img src="./assets/myPortfolioPic.png" alt="myPic">
-                    <h3>Prakash Chandra Bera</h3>
-                    <p>Founder</p>
-                    <div class="email-icon">
-                        <i class="bi bi-envelope-fill"></i>
-                        <p>example@gmail.com</p>
+            <form action="">
+                <div class="form-content">
 
-                    </div>
-                    <form action="" class="form-div">
-                        <input type="text" placeholder=" Your Name*"><br>
-                        <input type="email" placeholder=" Your Email*"><br>
-                        <input type="text" placeholder=" Your Phone Number*"><br>
-                        <button class="form-btn">Get a Callback</button>
-                        <h5>By submitting my data I agree to be contacted</h5>
-                    </form>
+                    <label for="username">Name</label>
+                    <input type="text" id="username">
+
+                    <label for="phone">Phone<sup>*</sup></label>
+                    <input type="text" id="phone" required>
+
+                    <label for="email">Email<sup>*</sup></label>
+                    <input type="text" id="email" required>
+
+                    <label for="city">City<sup>*</sup></label>
+                    <input type="text" id="city" required>
+
+                    <label for="country">Country<sup>*</sup></label>
+                    <input type="text" id="country" required>
+
+                    <label for="website">Website</label>
+                    <input type="text" id="website">
+
+                    <label for="textarea">Requirements ?<sup>*</sup></label>
+                    <textarea name="" cols="40" rows="10" id="textarea" required></textarea>
+
+                    <button type="submit">Submit</button>
 
                 </div>
 
-            </div>
 
-
+            </form>
         </div>
-
-
-
     </main>
-
-    <!-- </div> -->
-
-
-
-    <!------------------------- Content Section 1 --------------------------------- -->
-
-    <section>
-        <div class="container">
-            <div class="main-content">
-                <div class="left-content1">
-                    <span></span>
-                    <h4>eCommerce Solutions</h4>
-                    <h2>Sell Online at Scale</h2>
-                    <p>We help you achieve the best possible buying experience for your customers online. Our expertise
-                        sits best for Shopify, WooCommerce, BigCommerce and Magento</p>
-                    <button class="content-btn">OUR PACKAGES</button>
-
-
-                </div>
-                <div class="right-content1">
-                    <img src="./assets/Hand coding-amico.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- ----Content Section 2 ---------------------------------------------------------- -->
-
-
-    <section>
-        <div class="container">
-            <div class="main-content1">
-                <div class="left-content2">
-                    <img src="./assets/Company-cuate.svg" alt="">
-                </div>
-                <div class="right-content2">
-                    <span></span>
-                    <h4>Website Design</h4>
-                    <h2>Your Online Presence is Due</h2>
-                    <p>A website is the face of your business. Dont Compromise, it what drives the sales. We build
-                        Dynamic CMS Driven Websites powered by WordPress and Joomla</p>
-                    <button class="content-btn">OUR PACKAGES</button>
-
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!------------- Content Section 3 --------------------------------------------------- -->
-
-
-    <section>
-        <div class="container">
-            <div class="main-content">
-                <div class="left-content1">
-                    <span></span>
-                    <h4>Media Solutions</h4>
-                    <h2>Youtube, Photography & Filmmaking</h2>
-                    <p>We specialize in aerial filming, commercial photography & videography as well. If you are looking
-                        for a YouTube filming team, or editing team for your videos, we have it all</p>
-                    <button class="content-btn">OUR PACKAGES</button>
-
-
-                </div>
-                <div class="right-content1">
-                    <img src="./assets/Webinar-rafiki.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     <!--------------- Footer Section  ------------------------------------------------------------ -->
 
@@ -256,11 +179,7 @@
         <p>&#169; 2023 WebTimy . Hyderabad, Telengana</p>
 
     </section>
-
-
-    <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/c405f25917.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
