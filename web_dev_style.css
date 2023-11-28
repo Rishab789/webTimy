@@ -265,7 +265,7 @@ td {
 
     .main-sec-head {
         /* background-color: aqua; */
-        padding: 0px 10px;
+        padding: 0px 0px;
     }
 
     .main-sec {
@@ -280,8 +280,8 @@ td {
     }
 
     .left-content-other {
-        width: 100%;
-        /* background-color: aqua; */
+        min-width: 100%;
+        background-color: aqua;
         text-align: center;
         display: flex;
         flex-direction: column;
