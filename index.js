@@ -12,3 +12,55 @@ hamburger.addEventListener('click', () => {
 
 
 
+// Accordion Section Code 
+
+var acc = document.getElementsByClassName("accordion");
+
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        let icon = document.querySelectorAll('.plus');
+        // console.log(typeof (icon))
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+
+
+            // if (icon.classList.contains('fa-plus')) {
+            //     icon.classList.remove('fa-plus');
+            //     icon.classList.add('fa-minus');
+
+            // }
+            // else if (icon.classList.contains('fa-minus')) {
+            //     icon.classList.remove('fa-minus');
+            //     icon.classList.add('fa-plus');
+            // }
+
+
+        } else {
+            panel.style.display = "block";
+
+
+            // if (icon.classList.contains('fa-plus')) {
+            //     icon.classList.remove('fa-plus');
+            //     icon.classList.add('fa-minus');
+
+            // }
+            // else if (icon.classList.contains('fa-minus')) {
+            //     icon.classList.remove('fa-minus');
+            //     icon.classList.add('fa-plus');
+            // }
+
+
+
+        }
+    });
+}
+
+
