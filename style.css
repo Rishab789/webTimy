@@ -897,7 +897,7 @@ ul li:hover ul.dropdown {
 
 @media only screen and (max-width: 568px) and (min-width: 320px) {
     .right-content {
-        background-color: aqua;
+        /* background-color: aqua; */
         margin-top: 90px;
         height: 500px;
     }
