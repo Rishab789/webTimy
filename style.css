@@ -759,14 +759,8 @@ ul li:hover ul.dropdown {
     }
 
 
-
-
     .active {
         display: block;
-
-
-
-
 
     }
 
@@ -879,6 +873,7 @@ ul li:hover ul.dropdown {
     }
 
     .right-content {
+        /* position: relative; */
         top: 50%;
         right: 5%;
         /* background-color: aquamarine; */
@@ -891,10 +886,10 @@ ul li:hover ul.dropdown {
 
     .form-container {
         /* background-color: cadetblue; */
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
 
     }
 
@@ -908,11 +903,11 @@ ul li:hover ul.dropdown {
     }
 
     .form-div input {
-        width: 90%;
-        padding: 15px 0 15px 0;
-        border-radius: 10px;
-        border: .5px solid gray;
-        padding-left: 20px;
+        /* width: 90%; */
+        /* padding: 15px 0 15px 0; */
+        /* border-radius: 10px; */
+        /* border: .5px solid gray; */
+        /* padding-left: 20px; */
 
     }
 
