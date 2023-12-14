@@ -817,10 +817,6 @@ ul li:hover ul.dropdown {
 
     }
 
-
-
-
-
     .navbar .logo {
         font-size: 3rem;
         text-decoration: none;
@@ -858,7 +854,7 @@ ul li:hover ul.dropdown {
         /* background-size: cover; */
         /* width: 100%; */
         /* z-index: -1; */
-        height: 1050px;
+        height: 1250px;
 
     }
 
@@ -868,18 +864,18 @@ ul li:hover ul.dropdown {
     }
 
     .shadow .left-content h1 {
-        /* text-align: center;
-        position: absolute;
-        top: 0;
-        left: 10%;
-        width: 80%;
-        margin-top: 20px; */
+        /* text-align: center; */
+        /* position: absolute; */
+        /* top: 0; */
+        /* left: 10%; */
+        /* width: 80%; */
+        margin-top: 20px;
         font-size: 2.5rem;
         font-weight: bolder;
     }
 
     .btn {
-        right: 17%;
+        right: 15%;
     }
 
     .right-content {
@@ -887,6 +883,8 @@ ul li:hover ul.dropdown {
         right: 5%;
         /* background-color: aquamarine; */
         width: 90%;
+
+
 
 
     }
@@ -897,10 +895,13 @@ ul li:hover ul.dropdown {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
     }
 
     .form-div {
+        /* margin-top: 10px; */
         /* background-color: aqua; */
+        /* top: 100px; */
 
 
 
