@@ -128,6 +128,7 @@ ul li ul.dropdown {
     border-radius: 10px;
     text-align: end;
 
+
 }
 
 ul li a:hover {
@@ -398,15 +399,29 @@ ul li:hover ul.dropdown {
     width: 50%;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+
     align-items: flex-start;
-    /* background-color: cadetblue; */
+
     padding: 60px;
     animation: content1Slide 1.2s ease-in;
 }
 
+/* .active {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 
-@keyframes content1Slide {
+    align-items: flex-start;
+
+    padding: 60px;
+    animation: content1Slide1 1.2s ease-in;
+
+} */
+
+
+
+
+@keyframes content1Slide1 {
     0% {
         opacity: 0;
         transform: translateX(-50px);
@@ -419,6 +434,11 @@ ul li:hover ul.dropdown {
         transform: translateX(0px);
     }
 }
+
+
+
+
+
 
 .left-content1 h4 {
     font-size: 1.2rem;
@@ -465,7 +485,13 @@ ul li:hover ul.dropdown {
     animation: contentRightSlide 1.2s ease-in;
 }
 
-@keyframes contentRightSlide {
+/* .active2 {
+    width: 50%;
+    animation: contentRightSlide2 1.2s ease-in;
+
+} */
+
+@keyframes contentRightSlide2 {
     0% {
         opacity: 0;
         transform: translateX(50px);
@@ -525,6 +551,18 @@ ul li:hover ul.dropdown {
     font-size: 1.4rem;
     margin-bottom: 20px;
 }
+
+/* @media(prefers-reduced-motion) {
+    .active {
+        transition: none;
+    }
+
+    .active2 {
+        transition: none;
+    }
+
+
+} */
 
 
 /* ----------footer section ---------------------------------- */
@@ -702,6 +740,7 @@ ul li:hover ul.dropdown {
         gap: 20px;
         flex-direction: column;
 
+
     }
 
     .email-icon-responsive {
@@ -715,10 +754,20 @@ ul li:hover ul.dropdown {
         font-size: 1.2rem;
         padding-right: 20px;
 
+
+
     }
+
+
+
 
     .active {
         display: block;
+
+
+
+
+
     }
 
     /* Hero Section  */
@@ -758,7 +807,19 @@ ul li:hover ul.dropdown {
 
     .navbar {
         width: 100%;
+
     }
+
+    nav {
+        /* background-color: #f86011; */
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+    }
+
+
+
+
 
     .navbar .logo {
         font-size: 3rem;
@@ -771,6 +832,18 @@ ul li:hover ul.dropdown {
     .hamburger-menu span {
         margin-right: 10px;
     }
+
+
+    ul li ul.dropdown {
+
+        right: -1px;
+
+
+
+
+
+    }
+
 
     .email-icon {
         display: none;
@@ -878,6 +951,15 @@ ul li:hover ul.dropdown {
 
     .left-content2 {
         width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-content2 img {
+        width: 340px;
+        height: 340px;
     }
 
     .right-content2 {

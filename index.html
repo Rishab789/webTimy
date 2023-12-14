@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
 </head>
 
@@ -111,8 +112,8 @@
 
     <section>
         <div class="container">
-            <div class="main-content">
-                <div class="left-content1">
+            <div class="main-content ">
+                <div class="left-content1 " data-aos="fade-right" data-aos-duration="2000">
                     <span></span>
                     <h4>eCommerce Solutions</h4>
                     <h2>Sell Online at Scale</h2>
@@ -122,7 +123,7 @@
 
 
                 </div>
-                <div class="right-content1">
+                <div class="right-content1 " data-aos="fade-left" data-aos-duration="2000">
                     <img src="./assets/Hand coding-amico.svg" alt="">
                 </div>
             </div>
@@ -136,10 +137,10 @@
     <section>
         <div class="container">
             <div class="main-content1">
-                <div class="left-content2">
+                <div class="left-content2 " data-aos="fade-right" data-aos-duration="2000">
                     <img src="./assets/Company-cuate.svg" alt="">
                 </div>
-                <div class="right-content2">
+                <div class="right-content2" data-aos="fade-left" data-aos-duration="2000">
                     <span></span>
                     <h4>Website Design</h4>
                     <h2>Your Online Presence is Due</h2>
@@ -160,7 +161,7 @@
     <section>
         <div class="container">
             <div class="main-content">
-                <div class="left-content1">
+                <div class="left-content1 " data-aos="fade-right" data-aos-duration="2000">
                     <span></span>
                     <h4>Media Solutions</h4>
                     <h2>Youtube, Photography & Filmmaking</h2>
@@ -170,7 +171,7 @@
 
 
                 </div>
-                <div class="right-content1">
+                <div class="right-content1 " data-aos="fade-left" data-aos-duration="2000">
                     <img src="./assets/Webinar-rafiki.svg" alt="">
                 </div>
             </div>
@@ -260,6 +261,12 @@
 
     <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/c405f25917.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
 
 </body>
 

@@ -1,11 +1,9 @@
-// function hamburger() {
-
-// }
 
 
 let hamburger = document.querySelector(".fa-bars");
 hamburger.addEventListener('click', () => {
     let nav = document.querySelector('nav');
+
 
     nav.classList.toggle('active')
 })
@@ -31,36 +29,16 @@ for (i = 0; i < acc.length; i++) {
         if (panel.style.display === "block") {
             panel.style.display = "none";
 
-
-            // if (icon.classList.contains('fa-plus')) {
-            //     icon.classList.remove('fa-plus');
-            //     icon.classList.add('fa-minus');
-
-            // }
-            // else if (icon.classList.contains('fa-minus')) {
-            //     icon.classList.remove('fa-minus');
-            //     icon.classList.add('fa-plus');
-            // }
-
-
         } else {
             panel.style.display = "block";
-
-
-            // if (icon.classList.contains('fa-plus')) {
-            //     icon.classList.remove('fa-plus');
-            //     icon.classList.add('fa-minus');
-
-            // }
-            // else if (icon.classList.contains('fa-minus')) {
-            //     icon.classList.remove('fa-minus');
-            //     icon.classList.add('fa-plus');
-            // }
-
-
-
         }
     });
 }
+
+
+
+
+
+
 
 
