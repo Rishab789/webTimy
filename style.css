@@ -783,7 +783,8 @@ ul li:hover ul.dropdown {
     }
 
     .btn {
-        right: 35%;
+        /* right: 35%; */
+
     }
 
     .right-content {
@@ -827,11 +828,6 @@ ul li:hover ul.dropdown {
     ul li ul.dropdown {
 
         right: -1px;
-
-
-
-
-
     }
 
 
